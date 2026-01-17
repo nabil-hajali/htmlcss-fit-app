@@ -1,0 +1,10 @@
+/* add flame first card*/
+
+.stats-grid:nth-child(1)::before {
+
+    content: "🔥";
+    display: block;
+    font-size: 30px;
+   
+}
+
