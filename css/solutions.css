@@ -45,5 +45,11 @@
     background-color: lightyellow ;
 }
 
+.workout-plan:nth-of-type(3)
+.workout-plan:first-of-type {
 
+    border-left: 3px solid #21ca12;
+    background-color: #dbf8d8;
+
+}
 
