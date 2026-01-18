@@ -19,3 +19,16 @@
 
     color: white;
 }
+
+
+.stats-grid{
+    transition: transform 1s ease;
+
+}
+
+.stats-grid:hover {
+
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px #481de2; 
+}
+
