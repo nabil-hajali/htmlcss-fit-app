@@ -21,7 +21,7 @@
 }
 
 
-.stats-grid{
+.stats-grid {
     transition: transform 1s ease;
 
 }
@@ -31,4 +31,19 @@
     transform: translateY(-5px);
     box-shadow: 0 10px 20px #481de2; 
 }
+
+.workout-plan .workout-plan:nth-of-type(2) {
+
+    background-color: #fef8c0;
+    border-left-color: 5px solid #f39c12;
+
+}
+
+.workout-plan:nth-of-type(2) {
+
+    border-left: 3px solid #fbcc9d;
+    background-color: lightyellow ;
+}
+
+
 
