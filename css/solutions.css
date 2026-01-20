@@ -111,3 +111,27 @@ section[class="goals-container"] select:focus {
     color: blue;
     background-color: black;
 }
+
+
+div.quote-box {
+    position: relative
+}
+
+div.quote-box p::before {
+    content: "\"";
+    position: absolute;
+    left: 10px;
+    top: -15px;
+    font-size: 4rem;
+    color: #ffffff5e;
+
+}
+
+
+div.quote-box p::after {
+    content: "\"";
+    position: absolute;
+    right: 20px;
+    font-size: 4rem;
+    color: #ffffff5e;
+}
