@@ -53,3 +53,30 @@
 
 }
 
+
+.exercise-item:first-child,
+.exercise-item:last-child {
+
+    background: #f0fff4;
+    border-left: 4px solid #2ecc71;
+    padding-left: 10px;
+}
+
+
+.exercise-item:nth-child(2) .exercise-name::before,
+.exercise-item:nth-child(4) .exercise-name::before {
+    content: "⚡️" ;
+}
+ 
+
+section[class="goals-container"] input,
+section[class="goals-container"] select {
+    outline: none;
+    transition: .35s;
+}
+
+section[class="goals-container"] input:focus,
+section[class="goals-container"] select:focus {
+    border: 1px solid blue;
+    box-shadow: 0 2px 10px 0 blue;
+}
