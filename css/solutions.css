@@ -80,3 +80,10 @@ section[class="goals-container"] select:focus {
     border: 1px solid blue;
     box-shadow: 0 2px 10px 0 blue;
 }
+
+.save-btn:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(to right, rgb(57, 57, 161)blue);
+}
+
+
