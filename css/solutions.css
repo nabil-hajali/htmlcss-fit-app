@@ -87,3 +87,15 @@ section[class="goals-container"] select:focus {
 }
 
 
+.progress-bar {
+    position: relative;
+}
+
+.progress-fill::after {
+    content: "65%";
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: -2px;
+    right: 10px;
+}
