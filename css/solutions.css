@@ -99,3 +99,15 @@ section[class="goals-container"] select:focus {
     top: -2px;
     right: 10px;
 }
+
+.nav-footer a:hover {
+
+    color: blue;
+    background-color: black;
+}
+
+
+[href="#home"] {
+    color: blue;
+    background-color: black;
+}
